@@ -4,6 +4,8 @@ public class Conta {
 
 	public String nome;
 	public	String cpf;
+	
+	//privando acesso
 	private Double saldo;
 
 	public Conta() {
@@ -16,7 +18,7 @@ public class Conta {
 		this.cpf = cpf;
 
 	}
-	
+	//implementado acesso para somente obter o saldo, depositar e sacar
 	public Double getSaldo() {
 		return saldo;
 		
